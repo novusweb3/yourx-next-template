@@ -1,7 +1,29 @@
-# AI-Powered Analytics Dashboard
-Adrian Birsan https://x.com/adrianbirsan_
+# Modern Next.js Dashboard Template
 
-A modern web application built with Next.js 13+ that provides AI-powered analytics and insights tracking.
+A modern, responsive dashboard template built with Next.js 14, Tailwind CSS, and TypeScript.
+
+## Features
+
+- 🎨 Modern UI with dark theme
+- ✨ Gradient accents and glass-morphism effects
+- 📱 Fully responsive design
+- 🎭 Framer Motion animations
+- 🎯 Clean component structure
+- 🎨 Tailwind CSS styling
+- 📝 TypeScript support
+- 🧩 Reusable UI components
+- 🔄 Loading states and error handling
+- 📊 Dashboard layout ready
+
+## Tech Stack
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Radix UI
+- Lucide Icons
+- Shadcn UI
 
 ## Getting Started
 
@@ -38,19 +60,19 @@ A modern web application built with Next.js 13+ that provides AI-powered analyti
 
 ## Project Structure
 ├── app/
-│   ├── dashboard/         # Dashboard pages
-│   ├── globals.css       
-│   ├── layout.tsx        # Root layout
-│   └── page.tsx          # Landing page
+│   ├── dashboard/       # Dashboard pages
+│   ├── globals.css      # Global styles
+│   ├── layout.tsx      # Root layout
+│   └── page.tsx        # Landing page
 ├── components/
-│   ├── ui/               # Reusable UI components
-│   ├── dashboard/        # Dashboard-specific components
-│   ├── error-states/     # Error handling components
-│   └── loading-states/   # Loading skeletons
+│   ├── ui/             # Reusable UI components
+│   ├── dashboard/      # Dashboard-specific components
+│   ├── error-states/   # Error handling components
+│   └── loading-states/ # Loading skeletons
 ├── lib/
-│   └── utils/           # Utility functions
+│   └── utils/          # Utility functions
 └── types/
-    └── index.ts         # TypeScript definitions
+    └── index.ts        # TypeScript definitions
 
 ## Tech Stack
 
